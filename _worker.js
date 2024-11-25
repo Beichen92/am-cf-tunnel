@@ -13,7 +13,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = '0616a6d3-610d-4a20-bdaf-fc926a4c0477';
 
 // Proxy IPs to choose from
-let proxyIPs = ['fd.vl.bcua.pp.ua'];
+let proxyIPs = ['fd.et.bcua.pp.ua'];
 // Randomly select a proxy IP from the list
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 let proxyPort = 443;
